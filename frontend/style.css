@@ -1,52 +1,90 @@
+/* Set global styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: #101820;
+    color: white;
 }
 
 h1 {
     text-align: center;
+    color: white; /* Font color changed to white */
 }
 
-#connectPage, #electionPage {
+/* Styles for the Connect Page */
+#connectPage {
     max-width: 600px;
     margin: 0 auto;
     padding: 20px;
+    text-align: center; /* Center align the content */
 }
 
-#connectBtn, #voteBtn, #updateScoresBtn {
+#connectBtn {
     padding: 10px 20px;
-    font-size: 16px;
+    font-size: 32px;
     cursor: pointer;
     margin-top: 10px;
+    border-radius: 20px; /* Rounded corners */
+    background-color: #F4AB6A; /* Background color */
+    color: white; /* Font color */
 }
 
-table {
+/* Styles for the Election Page */
+#electionPage {
+    display: none;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #101820;
+    text-align: center; /* Center align the content */
+}
+
+table#candidatesTable {
     width: 100%;
     border-collapse: collapse;
     margin-bottom: 20px;
+    border-radius: 10px; /* Rounded corners */
+    background-color: #48AAAD; /* Background color */
+    color: white; /* Font color */
 }
 
-table, th, td {
+table#candidatesTable th, table#candidatesTable td {
     border: 1px solid black;
     padding: 8px;
 }
 
-th {
+table#candidatesTable th {
     background-color: #f2f2f2;
 }
 
-form {
+form#voteFormContainer {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: column;
+    justify-content: center; /* Center align vertically */
+    align-items: center; /* Center align horizontally */
     margin-bottom: 20px;
 }
 
-#voteForm label, #voteForm input {
+form#voteForm label, form#voteForm input {
     margin-right: 10px;
+    border-radius: 10px; /* Rounded corners */
+}
+
+form#voteForm input {
+    padding: 5px; /* To make the input fields look more compact */
+}
+
+form#voteForm button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 20px; /* Rounded corners */
+    background-color: #F4AB6A; /* Background color */
+    color: white; /* Font color */
 }
 
 #successMessage {
     text-align: center;
     margin-bottom: 20px;
+    color: white; /* Font color */
 }
