@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<html>
+<head>
+    <title>WELCOME TO DECENTRALIZED GYMKHANA ELECTION</title>
+    <link rel="stylesheet" href="style.css">
+    <script type = "module" src = "index.js"></script>
+</head>
+<body>
+    <div id="connectPage">
+        <h1>WELCOME TO DECENTRALIZED GYMKHANA ELECTION </h1>
+        <button id="connectBtn">Connect to MetaMask</button>
+    </div>
+
+    <div id="electionPage" style="display: none;">
+        <h1>CANDIDATES</h1>
+        <table id="candidatesTable">
+            <tr>
+                <th>Index</th>
+                <th>Candidate Name</th>
+                <th>Score</th>
+            </tr>
+        </table>
+    
+        <div id="voteFormContainer"> <!-- Added container div -->
+            <form id="voteForm">
+                <label for="candidate1">1st Preference:</label>
+                <input type="number" id="candidate1" required>
+                <label for="candidate2">2nd Preference:</label>
+                <input type="number" id="candidate2" required>
+                <label for="candidate3">3rd Preference:</label>
+                <input type="number" id="candidate3" required>
+                <button type="submit" id="voteBtn">Vote</button>
+            </form>
+        </div>
+    
+        <div id="successMessage" style="display: none;">
+            <p>Successfully Voted!</p>
+        </div>
+    
+        <table id="candidatesTable">
+            <!-- Display candidates and their scores after voting -->
+        </table>
+    
+        <button id="updateScoresBtn">Update Scores</button>
+    </div>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/web3@1.5.2/dist/web3.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
