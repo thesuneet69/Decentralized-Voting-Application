@@ -9,8 +9,8 @@ async function connect() {
             await window.ethereum.enable();
             web3 = new Web3(window.ethereum);
             const networkId = await web3.eth.net.getId();
-            const contractAddress = '0x10a9387c51101F420C1b69C23D98470B2EDfb9F5'; // Replace with your deployed contract address
-            const contractABI = [
+            const contractAddress = '0x5B5F3d18c6a0964f6d5FB8929DD8fdAb450F268B'; // Replace with your deployed contract address
+            const contractABI =[
               {
                 "inputs": [
                   {
