@@ -1,16 +1,7 @@
-# Sample Hardhat Project
+# Decentralized Voting Application 
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+This is a decentralized Voting Application made for IIT Kanpur, Gymkhana for electing candidates for various purposes.
 
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
 Contract deployed to-0x5B5F3d18c6a0964f6d5FB8929DD8fdAb450F268B
 
 (https://github.com/Pr030304/web3/assets/121498679/709040f1-4fe7-438e-9421-04a00db653c6)
