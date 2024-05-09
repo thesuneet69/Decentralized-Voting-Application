@@ -11,4 +11,4 @@ Contract deployed to-0x5B5F3d18c6a0964f6d5FB8929DD8fdAb450F268B
 (https://github.com/Pr030304/web3/assets/121498679/6d6f75d4-2c24-4edf-99fb-98c8ba447374)
 
 
-Site - https://64c7ed6f5267262ac791445b--fantastic-strudel-280aae.netlify.app/
+Website - https://64c7ed6f5267262ac791445b--fantastic-strudel-280aae.netlify.app/
