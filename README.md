@@ -12,3 +12,6 @@ Contract deployed to-0x5B5F3d18c6a0964f6d5FB8929DD8fdAb450F268B
 
 
 Website - https://64c7ed6f5267262ac791445b--fantastic-strudel-280aae.netlify.app/
+
+*Note - To use the application to actually vote, you would need test ethers (sepolia) to validate a transaction on the decentralized server*
+
